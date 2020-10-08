@@ -1,0 +1,21 @@
+
+
+/*Page Gallerie*/
+
+ #carousel{
+margin-top: 130px;
+}
+.arrow-left{
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block;
+left: 25%;
+}
+.arrow-right{
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block;
+left: 73%;
+}

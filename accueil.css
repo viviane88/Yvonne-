@@ -1,0 +1,483 @@
+/*général*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center; 
+    margin: auto;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;  
+  }
+  
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #317267;
+}
+ul{
+    list-style: none;
+}
+.container-illustration{
+    width: 1500px;
+    margin:auto;
+    background-image: url(./image/motif-lateral.svg);
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
+
+/*HEADER*/
+header .container{
+    height: 180px;
+
+ }
+ /*navigateur*/
+ .main-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 580px;
+    font-size: 25px;
+    margin: auto;
+}
+.main-menu a{
+    margin-top: 60px;
+}
+/*accroche*/
+ .brand p{
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+
+.social-menu{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+width: 150px;
+margin-top: 80px;
+margin-left: 1000px;
+}
+ /*MAIN*/
+
+main .container{
+    width: 1200px;
+    height: 1000px; 
+ }
+  /*main logo*/
+
+ .main-logo{
+    width: 800px;
+    margin: auto;
+    margin-top: 90px;
+}
+ .main-logo .logo{
+    width: 290px;
+    float: left;
+    margin-top: -45px;
+    margin-left: 60px;
+}
+.main-logo .main-presentation{
+    line-height: 22px;
+    font-size: 19px;   
+    text-align: right;
+    width: 650px;
+    margin: auto;
+}
+ /*encadrement*/
+
+.squared{
+    border: solid 4px #32665E;
+    width: 1100px;
+    height: 1200px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 45px;  
+}
+/*nouveauté*/
+ .new{
+    background-image: url(./image/chounew.png);
+    width: 650px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+ }
+ .new:hover{
+     background-image: url(./image/chou2coco.png);
+     background-size: 90%;
+     background-position: top;
+     
+    }
+.description-new{
+    font-size: 22px;
+    margin-top: 70px;
+}
+ .title-new{
+    font-size: 80px;
+    color:#197F70 ;
+    text-transform: uppercase;
+    margin-top: -35px;
+ }
+ /*FOOTER*/
+footer .container{
+    width: 1200px;
+    height: 300px;
+    background-color:rgba(174, 189, 187, 0.4);
+    margin: auto;
+ 
+ }
+ .adress{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 1100px;
+     margin: auto;
+     margin-top: -280px;
+ }
+ .adress1 {
+     text-align: left;
+     width: 200px;
+ }
+ .adress2  {
+    text-align: left;
+    width: 200px;
+}
+.adress3 {
+    text-align: left;
+    width: 200px;
+}
+ .adress4{
+     text-align: right;
+          width: 250px;
+ }
+ .hours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    margin-top: 15px;
+}
+.hours1, .hours2, .hours3{
+    text-align: left;
+
+}
+.hours4{
+    text-align: right;
+
+}
+.footer-line{
+line-height: 90px;
+}
+
+/* Page Collection */
+table{
+    width: 500px;
+    height: 200px;
+    background-color: #8FD1C6 ;
+    margin: auto;
+    margin-top: 120px;
+    padding: 25px;
+}
+.chou-coco{
+background-image: url(./image/choco\ coco.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-framboise{
+background-image: url(./image/framboise.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-citron{
+background-image: url(./image/citron.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-choco{
+background-image: url(./image/chou\ choco.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-fraise{
+background-image: url(./image/fraise.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-orange{
+background-image: url(./image/fleur\ oranger.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-cassis{
+background-image: url(./image/cassis.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-cafe{
+background-image: url(./image/cafe.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-passion{
+background-image: url(./image/fruit\ passion.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-vanille{
+background-image: url(./image/choco\ vanille.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.chou-pistache{
+background-image: url(./image/pistache.svg);
+width: 70px;
+height: 60px;
+background-repeat: no-repeat;
+}
+.quantity-nbr{
+width: 55px;
+}
+.button-baket{
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 120px;
+text-align: center;
+}
+/*Page Tableau*/
+/*main*/
+
+main .container{
+max-width: 1200px;
+}
+h1{
+text-align: center;
+margin-left: 50px;
+}
+.lien{
+text-align: center;
+margin-left: 50px;
+padding-top: 16px;
+padding-bottom: 20px;
+}
+/*tableau*/
+table{
+width: 90%;
+margin: auto;
+margin-top: 50px;
+border-spacing: 0;
+}
+thead th, tbody td{
+border-bottom: solid #317267 1px;
+}
+  
+/*tableau THEAD*/
+table thead{
+margin-top: 50px;
+}
+thead{
+line-height: 80px;
+}
+thead th{
+font-weight: normal;
+font-size: 24px;
+}
+/*tableau TBODY*/
+tbody td{
+font-weight: normal;
+font-size: 18px;
+height: 80px;
+}
+  
+/*tableau image*/
+  
+.product-image{
+background-image: url(./image/choucoco.png);
+width: 125px;
+height: 84px;
+margin-top: 30px;
+margin-bottom: 30px;
+background-size: contain;
+background-repeat: no-repeat;
+    float: left;
+  }
+  /*tableau description produit*/
+  
+  .product-description{
+    line-height: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .product-description a{
+    line-height: 50px;
+  }
+  .product-description a:hover{
+    text-decoration: underline;
+  }
+  
+  /*tableau input*/
+  .product-quantity{
+    width: 35px;
+    height: 25px;
+  }
+  /*seconde image*/
+  
+.product-image2{
+background-image: url(./image/choumyrtille.png);
+width: 125px;
+height: 84px;
+margin-top: 30px;
+margin-bottom: 30px;
+background-size: contain;
+background-repeat: no-repeat;
+float: left;
+}
+  
+/*troisième image*/
+  
+.product-image3{
+background-image: url(./image/chouframboise.png);
+width: 125px;
+height: 84px;
+margin-top: 30px;
+margin-bottom: 30px;
+background-size: contain;
+background-repeat: no-repeat;
+float: left;
+}
+/*quatrième image*/
+  
+.product-image4{
+background-image: url(./image/choucitron.png);
+width: 125px;
+height: 84px;
+margin-top: 30px;
+margin-bottom: 30px;
+background-size: contain;
+background-repeat: no-repeat;
+float: left;
+}
+/*TFOOT*/
+tfoot{
+line-height: 50px;
+font-size: 22px;
+ }
+  
+.basket-total{
+display: inline;
+padding: 40px;
+margin-right: -32px;
+}
+.taxe{
+font-size: 16px;
+font-style: italic;
+margin-top: -15px;
+}
+
+  
+/*bouton*/
+  
+  #myBtn{
+background-color: #69B2A8;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+color: white;
+width: 140px;
+height:25px ;
+text-align: center;
+padding: 15px;
+cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-image: url(./image/motif.svg);
+background-size: 130%;
+background-color: rgba(105,178,168,0.5); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+ background-color: white;
+border: solid  #386861 1px;
+border-radius: 20px 50px ;
+margin: 15% auto; /* 15% from the top and centered */
+padding: 20px;
+width: 450px; /* Could be more or less, depending on screen size */
+height: 250px;
+}
+.modal-content p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 26px;
+text-align: center;
+}
+.modal-content input{
+width: 250px;
+height: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: gray;
+font-size: 14px;
+margin-left: 90px;
+margin-top: 25px;
+}
+.modal-content .button{
+background-color: #69B2A8;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+color: white;
+width: 140px;
+height:25px ;
+text-align: center;
+padding: 15px;
+display: block;
+margin: auto;
+margin-top: 25px;
+}
+.modal-content .button:hover{
+background-color: white;
+color: #69B2A8;
+border: solid 1px #69B2A8;
+}
+  /* The Close Button */
+.close {
+color: #386861;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+color: purple;
+text-decoration: none;
+cursor: pointer;
+}

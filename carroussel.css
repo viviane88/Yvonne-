@@ -1,0 +1,22 @@
+.carousel-inner{
+margin: auto;
+    margin-top: -1200px;
+}
+ 
+.carousel-control-next-icon:after{ 
+content: '>'; 
+font-size: 55px; 
+color: #32665E;
+margin-left:-1000px ; 
+
+
+} 
+.carousel-control-prev-icon:after { 
+content: '<'; 
+font-size: 55px; 
+color: #32665E; 
+margin-left:500px ; 
+}
+.arrow{
+    width:150px
+}
